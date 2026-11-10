@@ -1,0 +1,303 @@
+body {
+    background-color: pink;
+    color: white;
+    margin: 0px;
+}
+
+img {
+    width: 95px;
+    height: 130px;
+    object-fit: cover;
+    border-radius: 25px;
+    border: 5px solid white;
+    box-shadow: 5px 5px 15px 5px rgb(235, 195, 216);
+    margin: 20px auto;
+
+}
+
+
+ul {
+    list-style-type: none;
+    overflow: hidden;
+    background-color: white;
+    outline: auto;
+    text-decoration-color: pink;
+    margin: 50px;
+}
+
+ul li {
+    font-size: 25px;
+    font-weight: bolder;
+    font-style: oblique;
+    padding: 10px;
+    float: left;
+    width: 100px;
+    margin: 5px
+}
+
+ul li a {
+    color: palevioletred;
+}
+
+.text {
+    padding: 20px 25px;
+    border-radius: 25px;
+    width: 450px;
+    box-sizing: border-box;
+    float: left;
+    margin: 20px;
+}
+
+.dades_personals {
+    background: linear-gradient(135deg, #ffffff);
+    padding: 20px 25px;
+    border-radius: 25px;
+    box-shadow: 3px 5px 12px #faf1f4;
+    width: 450px;
+    box-sizing: border-box;
+    margin: 20px auto;
+    text-align: center;
+
+}
+
+.dades_personals p {
+    font-family: Georgia, serif;
+    font-size: 20px;
+    color: pink;
+    line-height: 1.35;
+    margin: 0;
+}
+
+.sobre_mi {
+    color: rgb(82, 81, 81)
+}
+
+.els_meus_gustos {
+    color: rgb(82, 81, 81)
+}
+
+.aficions {
+    color: rgb(82, 81, 81)
+}
+
+.link {
+    margin: 10px;
+    background: linear-gradient(135deg, #ffcede);
+    padding: 10px 15px;
+    border-radius: 15px;
+    box-shadow: 3px 5px 12px #552f3c;
+    width: 150px;
+    box-sizing: border-box;
+    float: center;
+    margin: 20px auto;
+    font-style: oblique;
+}
+
+.copyright {
+    background: linear-gradient(135deg, #ffffff);
+    padding: 10px 15px;
+    border-radius: 15px;
+    box-shadow: 3px 5px 12px #faf1f4;
+    width: 304px;
+    box-sizing: border-box;
+    float: center;
+    margin: 20px auto;
+}
+
+.copyright p {
+    font-family: Georgia, serif;
+    font-size: 12px;
+    color: pink;
+    line-height: 1.35;
+    margin: 0px auto; 
+}
+
+header {
+    font-size: 28px;
+    font-weight: bolder;
+    font-style: oblique;
+    padding: 0px;
+    width: 600px;   
+    margin: 30px auto; 
+
+}
+
+.horari table {
+    background: linear-gradient(135deg, #ffcede);
+    padding: 20px 15px;
+    border-radius: 15px;
+    box-shadow: 3px 5px 12px #552f3c;
+    width: 800px;
+    box-sizing: border-box;
+    float: center;
+    margin: 20px auto;
+    font-style: oblique;
+}
+
+.horari th  {
+    border: 3px solid white;
+    padding: 0px;
+    width: 900px;   
+    margin: 30px auto; 
+    padding: 30px;
+    font-size: 30px;
+}
+
+.horari td {
+   border: 1px solid white;
+   font-style: normal;
+   margin: 20px auto;
+   text-align: center;
+   padding: 50px;
+
+}
+.horari thead {
+    font-size: 25px;
+    font-weight: bolder;
+    font-style: oblique;
+    padding: 0px;
+    width: 900px;   
+    margin: 30px auto; 
+    background-color: #eebbcd;
+
+}
+
+.descans1 {
+    font-size: 20px;
+    font-weight: bolder;
+    font-style: initial;
+    background-color: #eebbcd;
+}
+
+.descans2 {
+    font-size: 20px;
+    font-weight: bolder;
+    font-style: initial;
+    background-color: #eebbcd;
+}
+
+.Anglés {
+    background-color: #ec8eaf;
+}
+
+.Programació {
+    background-color: #f7c5d6;
+}
+
+.Muntatge {
+    background-color: #ffafca
+}
+
+.Xarxes {
+    background-color: #df94ad
+}
+
+.Ofimatica {
+    background-color: #c5718d
+}
+
+.Tutoria {
+    background-color: #c76585
+}
+
+.IPO {
+    background-color: #8b4058da
+}
+
+.Digitalització {
+    background-color: #d199ab
+}
+
+.Sostenibilitat {
+    background-color: #b62b57e1
+}
+
+.Monolloc {
+    background-color: #f56495ce
+}
+
+.theadnv {
+    border: 3px solid white;
+    padding: 0px;
+    width: 900px;   
+    margin: 30px auto; 
+    padding: 30px;
+}
+
+.color1 {
+    background-color: #c76585;
+}
+
+.color2 {
+    background-color: #ec8eaf;
+}
+
+.eight {
+    background-color: #c76585;
+}
+
+.tf {
+    background-color: #c76585;
+}
+
+.ts {
+    background-color: #ec8eaf;
+}
+
+.calendari table {
+    background: linear-gradient(135deg, #ffcede);
+    padding: 50px 30px;
+    border-radius: 15px;
+    box-shadow: 3px 5px 12px #552f3c;
+    width: 1000px;
+    box-sizing: border-box;
+    float: center;
+    margin: 20px auto;
+    font-style: oblique;
+}
+
+.calendari th  {
+    border: 3px solid white;
+    padding: 0px;
+    width: 900px;   
+    margin: 30px auto; 
+    padding: 30px;
+}
+
+.calendari td {
+   border: none;
+   font-style: normal;
+   font-size: 50px;
+   margin: 20px auto;
+   text-align: center;
+   padding: 50px;
+   font-size: 40px;
+
+}
+.calendari thead {
+    font-size: 25px;
+    font-weight: bolder;
+    font-style: oblique;
+    padding: 0px;
+    width: 900px;   
+    margin: 30px auto; 
+    background-color: #eebbcd;
+}
+
+
+h1 {
+    font-size: 40px;
+    font-weight: bolder;
+    font-style: oblique;
+    width: 900px; 
+    margin: 30px auto;  
+    text-align: center;
+    background: linear-gradient(135deg, #ffcede);
+    padding: 5px 5px;
+    border-radius: 15px;
+    box-shadow: 10px 12px 25px #f8f6f7;
+    width: 400px;
+    box-sizing: border-box;
+    float: center;
+    font-style: oblique;
+}

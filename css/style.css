@@ -2,6 +2,7 @@ body {
     background-color: pink;
     color: white;
     margin: 0px;
+    text-align: center;
 }
 
 img {
@@ -23,6 +24,10 @@ ul {
     outline: auto;
     text-decoration-color: pink;
     margin: 50px;
+    text-align: center;
+    align-items: center;
+    padding-top: 10px;
+    float: center;
 }
 
 ul li {
@@ -32,11 +37,17 @@ ul li {
     padding: 10px;
     float: left;
     width: 100px;
-    margin: 5px
+    margin: 5px;
+    text-align: center;
+    padding-top: 10px;
+    float: center;
 }
 
 ul li a {
     color: palevioletred;
+    text-align: center;
+    padding-top: 10px;
+    float: center;
 }
 
 .text {
@@ -46,6 +57,10 @@ ul li a {
     box-sizing: border-box;
     float: left;
     margin: 20px;
+}
+
+.title {
+    text-align: center;
 }
 
 .dades_personals {
@@ -119,6 +134,7 @@ header {
     padding: 0px;
     width: 600px;   
     margin: 30px auto; 
+    text-align: center;
 
 }
 
@@ -287,17 +303,52 @@ header {
 
 h1 {
     font-size: 40px;
-    font-weight: bolder;
-    font-style: oblique;
-    width: 900px; 
+    font-weight: bolder; 
     margin: 30px auto;  
-    text-align: center;
     background: linear-gradient(135deg, #ffcede);
     padding: 5px 5px;
     border-radius: 15px;
     box-shadow: 10px 12px 25px #f8f6f7;
     width: 400px;
     box-sizing: border-box;
-    float: center;
     font-style: oblique;
+}
+
+/* FORMULARI */
+form {
+    align-items: center;
+    width: 300px;
+    float: center;
+    margin: 10px auto;
+}
+
+.lb {
+    margin-top: 25px;
+}
+
+.lb label {
+    padding: 10px 10px;
+    font-size: 20px;
+    font-weight: bolder;
+    font-style: oblique;
+    background: linear-gradient(135deg, #ffcede);
+    border-radius: 15px;
+    box-shadow: 10px 12px 25px #f8f6f7;
+    font-style: italic;
+
+    /* 
+    text-align: center;
+    box-sizing: border-box;
+    float: center;
+    margin-bottom: 100px;
+    align-items: center; */
+}
+
+.lb input, textarea {
+    margin-top: 25px;
+    font-size: 20px;
+    font-weight: bolder;
+    font-style: italic;
+    width: 256px; 
+    text-align: center; 
 }
